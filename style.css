@@ -111,18 +111,17 @@ ul {
 
 li {
     float: left;
+    display: block;
 }
 
 #About {
     position: fixed; 
     left: 32px;
-    right: 0px;
     top: 15px; 
     color: black;
     font-style: arial, sans-serif;
     font-size: 15px;
     opacity: .75;
-
 }
 
 #Store {
@@ -131,6 +130,7 @@ li {
     padding-left: 15px;
     right: 0px;
     top: 15px; 
+    color: black;
     font-size: 15px;
     opacity: .75;
 
@@ -149,7 +149,7 @@ li {
 
 #Images {
     position: fixed; 
-    left: 1065px;
+    left: 1061px;
     right: 0px;
     top: 15px; 
     color:rgba(0, 0, 0, .87);
@@ -180,5 +180,64 @@ li {
     color: white;
     font-size: 13px;
     margin-right: 2px; 
+}
 
+footer {
+    position: fixed;
+    left: 0px;
+    padding-bottom: 0px;
+    top: 648px;
+    display: block;
+    width: 100%;
+    height: 6%;
+    background-color: #f2f2f2;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #e4e4e4;
+}
+
+.second-list {
+    display: block;
+    padding-right: 100px;
+    padding-right: 100px;
+}
+
+ul li {
+    font-size: 14px;
+    color: #5f6368;
+    bottom: 12px;
+    font-family: Arial, sans-serif;
+}
+
+
+
+#Advertising {
+    position: fixed;
+    left: 25px;
+}
+
+
+#Buisness {
+    position: fixed;
+    left: 125px; 
+}
+
+#How-Search-Works {
+    position: fixed;
+    left: 210px; 
+}
+
+#Privacy {
+    position: fixed;
+    left: 1050px; 
+}
+
+#Terms {
+    position: fixed;
+    left: 1130px; 
+}
+
+#Settings {
+    position: fixed;
+    left: 1200px; 
 }
