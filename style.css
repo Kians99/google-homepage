@@ -101,5 +101,84 @@ body {
     color: #5F6368;
     font-size: 14px;
     margin-left: 5px; 
- 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+#About {
+    position: fixed; 
+    left: 32px;
+    right: 0px;
+    top: 15px; 
+    color: black;
+    font-style: arial, sans-serif;
+    font-size: 15px;
+    opacity: .75;
+
+}
+
+#Store {
+    position: fixed; 
+    left: 76px;
+    padding-left: 15px;
+    right: 0px;
+    top: 15px; 
+    font-size: 15px;
+    opacity: .75;
+
+}
+
+#Gmail {
+    position: fixed; 
+    left: 1000px;
+    right: 0px;
+    top: 15px; 
+    color:rgba(0, 0, 0, .87);
+    font-style: arial, sans-serif;
+    font-size: 15px;
+    opacity: .75;
+}
+
+#Images {
+    position: fixed; 
+    left: 1065px;
+    right: 0px;
+    top: 15px; 
+    color:rgba(0, 0, 0, .87);
+    font-style: arial, sans-serif;
+    font-size: 15px;
+    opacity: .75;
+}
+
+.threebythree {
+    position: fixed; 
+    top: 8px; 
+    left: 1130px;
+    width: 30px;
+    height: 30px;
+}
+
+.sign-in {
+    position: fixed;
+    left: 1185px;
+    top: 8px;
+    padding: 6px 10px 6px 10px; 
+    background-color:#4285f4;
+    border-size: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #4285f4;
+    font-family: arial;
+    color: white;
+    font-size: 13px;
+    margin-right: 2px; 
+
 }
