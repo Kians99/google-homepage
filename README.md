@@ -1,3 +1,2 @@
-Construct the google homepage using HTML/CSS. Improving my HTML/CSS
-skills. 
+Construct the google homepage using HTML/CSS. First project with HTML/CSS.
 
