@@ -1,10 +1,9 @@
 
 body {
-    
+    position: static;
     padding: 10px;
     width: 1000px;
     margin-right: 0px;
-    position: static; 
     top: 0px;
     left: 0px;
     right: 0px;
@@ -14,28 +13,58 @@ body {
     position: relative;
     display: block;
     margin-top: auto;
-    margin-bottom: auto;
+    margin-left: 260px;
+    margin-right: auto;
     top: 109px;
 }
 
 .google-logo {
+    position: static;
     display: block;
     width: 272px; 
-    height: 92px;
-    margin-left: auto;
+    height: 90px;
+    margin-left: 228px;
     margin-right: auto;
+    margin-bottom: 20px;
+
+}
+
+.only-search {
+    position: relative;
+    display: flex;
 }
 
 .search-bar {
     display: block;
-    height: 33.99px;
+    height: 38.99px;
     width: 520px;
     border-width: 5px;
     border-style: solid;
     border-color: rgba(223, 225, 229);
-    margin-left: auto;
+    margin-left: 100px;
     margin-right: auto;
+    margin-top: 0px;
     border-radius: 30px;
     border-width: thin;
+}
 
+.magnifying {
+    position: absolute;
+    left: 110px;
+    down: 100px;  
+    top: 12px;
+    width: 22px;
+    height: 22px;  
+    color: grey;
+}
+
+.mic {
+    position: absolute;
+    left: 585px;
+    margin-bottom: -100px;
+    padding-right: 100px;
+    height: 26px;
+    width: 28px;
+    top: 8px;
+    right: 1000px;
 }
